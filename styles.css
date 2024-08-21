@@ -1,0 +1,205 @@
+* {
+    box-sizing: border-box;
+    text-align: center;
+    
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: block;
+}
+
+
+
+
+
+/* first table*/
+.table-container1 {
+    background-color:#efefef;
+    padding: 10px 40px;
+    box-shadow: 1px rgba(0, 0, 0, 0.1);
+    margin-bottom: 30px;
+}
+
+h2 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.schedule-table {
+    width: 100%;
+    border-collapse: collapse;
+    text-align: center;
+    border-radius: 10px;
+    width: 700px;
+	table-layout: fixed;
+    overflow: hidden;
+    margin: 0 auto;
+}
+
+.schedule-table thead th {
+    background-color: #007bff;
+    color: #ffffff;
+    border: 1px solid #dfdfdf;
+    padding: 20px 50px;
+    text-align: center;
+    font-size: 16px;
+}
+
+.schedule-table tbody td {
+    border: 1px solid #dddddd;
+    background-color: white;
+    color:gray;
+    padding: 20px;
+    text-align: center;
+    font-size: 14px;
+    
+    
+}
+
+td[scope="col1"] {
+    color:#007bff !important;
+    font-size: 18px !important;
+}
+
+
+.table-caption1 {
+    text-align: center;
+    font-style: italic;
+    color: black;
+    margin-top: 8px;
+    font-size: 14px;
+}
+
+
+
+
+
+
+/* second table */
+.table-container2 {
+    background-color: #ffffff;
+    padding: 10px 40px;
+    border: 1px solid black;
+    box-shadow: 1px rgba(0, 0, 0, 0.1);
+    margin-bottom: 30px;
+}
+
+h2 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+    font-size: 16px;
+}
+
+.comparison-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 0 auto;
+    width: 700px;
+	table-layout: fixed;
+}
+
+.hidden-cell {
+    visibility: hidden; /* Makes the cell invisible but keeps it in the layout */
+    border: none; /* Optionally remove the border */
+    background-color: transparent;
+}
+
+.comparison-table tr:nth-child(odd) {
+    background-color: #bfd9ff;
+}
+.comparison-table tr:nth-child(even) {
+    background-color: #a3c5ff;
+}
+.comparison-table thead th {
+    background-color: #a3c5ff;
+}
+
+.comparison-table thead th {
+    color: #333;
+    padding: 10px;
+    text-align: center;
+    border: 1px solid rgb(125, 125, 255);
+}
+
+.comparison-table tbody th {
+    color: #333;
+    padding: 10px;
+    text-align: left;
+    font-weight: bold;
+    border: 1px solid rgb(125, 125, 255);
+}
+
+.comparison-table tbody td {
+    padding: 10px;
+    text-align: center;
+    border: 1px solid rgb(125, 125, 255);
+}
+
+.table-caption2 {
+    text-align: center;
+    font-style: italic;
+    color: #666;
+    margin-top: 10px;
+    font-size: 12px;
+}
+
+
+
+
+
+
+/* third table */
+.table-container3 {
+    background-color:#efefef;
+    padding: 30px;
+    box-shadow: 1px rgba(0, 0, 0, 0.1);
+    margin-bottom: 30px;
+    border: 1px solid black;
+}
+
+.perfume-table1 {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 0 auto;
+    width: 900px;
+	table-layout: fixed;
+    border: 1px solid black;
+    padding: 30px;
+}
+
+.title_design{
+    background-color: #a3c5ff;
+    border: 1px solid black;
+    padding: 20px;
+}
+
+.perfume-table2 {
+    width: 90%;
+    border-collapse: collapse;
+    margin: 0 auto;
+	table-layout: fixed;
+    border: black;
+    margin: 30px auto;
+}
+
+.perfume-table2 thead th{
+    border: 1px solid black;
+    padding: 20px;
+}
+.perfume-table2 tbody th,td{
+    border: 1px solid black;
+    padding: 10px;
+}
+
+th[scope="col3"], td[scope="col3"] {
+    width: 100px;
+}
